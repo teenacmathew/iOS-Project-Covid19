@@ -1,0 +1,6 @@
+framework module Pods_TeenaMathewFinalExam {
+  umbrella header "Pods-TeenaMathewFinalExam-umbrella.h"
+
+  export *
+  module * { export * }
+}

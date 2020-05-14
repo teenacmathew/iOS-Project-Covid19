@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8E33BE244E831000A79F30 /* GuidelinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E33BD244E831000A79F30 /* GuidelinesViewController.swift */; };
+		3F8E33C0244E90D100A79F30 /* AssesmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E33BF244E90D100A79F30 /* AssesmentViewController.swift */; };
+		3FDD4A09C8D702FB0B6CA100 /* Pods_TeenaMathewFinalExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A0A33D3D2674162A487385 /* Pods_TeenaMathewFinalExam.framework */; };
 		3FE7C3FB244CDDB30046F24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7C3FA244CDDB30046F24D /* AppDelegate.swift */; };
 		3FE7C3FD244CDDB30046F24D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7C3FC244CDDB30046F24D /* SceneDelegate.swift */; };
 		3FE7C3FF244CDDB30046F24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7C3FE244CDDB30046F24D /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		3FE7C407244CDDB40046F24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7C405244CDDB40046F24D /* LaunchScreen.storyboard */; };
 		3FE7C412244CDDB40046F24D /* TeenaMathewFinalExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7C411244CDDB40046F24D /* TeenaMathewFinalExamTests.swift */; };
 		3FE7C41D244CDDB50046F24D /* TeenaMathewFinalExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7C41C244CDDB50046F24D /* TeenaMathewFinalExamUITests.swift */; };
+		76A9B3C68B96B2C90CDF965B /* Pods_TeenaMathewFinalExam_TeenaMathewFinalExamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DADC9F7D436B49F79ABFFD /* Pods_TeenaMathewFinalExam_TeenaMathewFinalExamUITests.framework */; };
+		9D511E022A7060769E6B5C1A /* Pods_TeenaMathewFinalExamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B692BDF8002ED36B991255 /* Pods_TeenaMathewFinalExamTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A0A33D3D2674162A487385 /* Pods_TeenaMathewFinalExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeenaMathewFinalExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DADC9F7D436B49F79ABFFD /* Pods_TeenaMathewFinalExam_TeenaMathewFinalExamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeenaMathewFinalExam_TeenaMathewFinalExamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF13E26378689CB9F3A0195 /* Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.debug.xcconfig"; path = "Target Support Files/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8E33BD244E831000A79F30 /* GuidelinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidelinesViewController.swift; sourceTree = "<group>"; };
+		3F8E33BF244E90D100A79F30 /* AssesmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssesmentViewController.swift; sourceTree = "<group>"; };
 		3FE7C3F7244CDDB30046F24D /* TeenaMathewFinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeenaMathewFinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE7C3FA244CDDB30046F24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE7C3FC244CDDB30046F24D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		3FE7C418244CDDB40046F24D /* TeenaMathewFinalExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeenaMathewFinalExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE7C41C244CDDB50046F24D /* TeenaMathewFinalExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeenaMathewFinalExamUITests.swift; sourceTree = "<group>"; };
 		3FE7C41E244CDDB50046F24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6F7C4C6C6D9887D983962A /* Pods-TeenaMathewFinalExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeenaMathewFinalExam.debug.xcconfig"; path = "Target Support Files/Pods-TeenaMathewFinalExam/Pods-TeenaMathewFinalExam.debug.xcconfig"; sourceTree = "<group>"; };
+		86B692BDF8002ED36B991255 /* Pods_TeenaMathewFinalExamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeenaMathewFinalExamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9209F8DF12056B288724832E /* Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.release.xcconfig"; path = "Target Support Files/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C86304C2F1AF800F7D45FDC /* Pods-TeenaMathewFinalExamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeenaMathewFinalExamTests.release.xcconfig"; path = "Target Support Files/Pods-TeenaMathewFinalExamTests/Pods-TeenaMathewFinalExamTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2662FB0613DEBE5BCD39CDD /* Pods-TeenaMathewFinalExamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeenaMathewFinalExamTests.debug.xcconfig"; path = "Target Support Files/Pods-TeenaMathewFinalExamTests/Pods-TeenaMathewFinalExamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8F8CFFE3B28CC122848873C /* Pods-TeenaMathewFinalExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeenaMathewFinalExam.release.xcconfig"; path = "Target Support Files/Pods-TeenaMathewFinalExam/Pods-TeenaMathewFinalExam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDD4A09C8D702FB0B6CA100 /* Pods_TeenaMathewFinalExam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D511E022A7060769E6B5C1A /* Pods_TeenaMathewFinalExamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A9B3C68B96B2C90CDF965B /* Pods_TeenaMathewFinalExam_TeenaMathewFinalExamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B23DC80690A42BD72672CFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F7C4C6C6D9887D983962A /* Pods-TeenaMathewFinalExam.debug.xcconfig */,
+				F8F8CFFE3B28CC122848873C /* Pods-TeenaMathewFinalExam.release.xcconfig */,
+				3BF13E26378689CB9F3A0195 /* Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.debug.xcconfig */,
+				9209F8DF12056B288724832E /* Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.release.xcconfig */,
+				E2662FB0613DEBE5BCD39CDD /* Pods-TeenaMathewFinalExamTests.debug.xcconfig */,
+				9C86304C2F1AF800F7D45FDC /* Pods-TeenaMathewFinalExamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3FE7C3EE244CDDB30046F24D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				3FE7C410244CDDB40046F24D /* TeenaMathewFinalExamTests */,
 				3FE7C41B244CDDB50046F24D /* TeenaMathewFinalExamUITests */,
 				3FE7C3F8244CDDB30046F24D /* Products */,
+				3B23DC80690A42BD72672CFA /* Pods */,
+				652796CF6DAA6A2D4F00FD85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +140,8 @@
 				3FE7C403244CDDB40046F24D /* Assets.xcassets */,
 				3FE7C405244CDDB40046F24D /* LaunchScreen.storyboard */,
 				3FE7C408244CDDB40046F24D /* Info.plist */,
+				3F8E33BD244E831000A79F30 /* GuidelinesViewController.swift */,
+				3F8E33BF244E90D100A79F30 /* AssesmentViewController.swift */,
 			);
 			path = TeenaMathewFinalExam;
 			sourceTree = "<group>";
@@ -128,6 +164,16 @@
 			path = TeenaMathewFinalExamUITests;
 			sourceTree = "<group>";
 		};
+		652796CF6DAA6A2D4F00FD85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A0A33D3D2674162A487385 /* Pods_TeenaMathewFinalExam.framework */,
+				15DADC9F7D436B49F79ABFFD /* Pods_TeenaMathewFinalExam_TeenaMathewFinalExamUITests.framework */,
+				86B692BDF8002ED36B991255 /* Pods_TeenaMathewFinalExamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FE7C421244CDDB50046F24D /* Build configuration list for PBXNativeTarget "TeenaMathewFinalExam" */;
 			buildPhases = (
+				5E16ADD2DED82AAE2F0DFD39 /* [CP] Check Pods Manifest.lock */,
 				3FE7C3F3244CDDB30046F24D /* Sources */,
 				3FE7C3F4244CDDB30046F24D /* Frameworks */,
 				3FE7C3F5244CDDB30046F24D /* Resources */,
+				51890DBB125ACA771FE2F95D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FE7C424244CDDB50046F24D /* Build configuration list for PBXNativeTarget "TeenaMathewFinalExamTests" */;
 			buildPhases = (
+				FB1A5E93271E1AC251B267EE /* [CP] Check Pods Manifest.lock */,
 				3FE7C409244CDDB40046F24D /* Sources */,
 				3FE7C40A244CDDB40046F24D /* Frameworks */,
 				3FE7C40B244CDDB40046F24D /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FE7C427244CDDB50046F24D /* Build configuration list for PBXNativeTarget "TeenaMathewFinalExamUITests" */;
 			buildPhases = (
+				BCC66780E3983BB1955B9EB5 /* [CP] Check Pods Manifest.lock */,
 				3FE7C414244CDDB40046F24D /* Sources */,
 				3FE7C415244CDDB40046F24D /* Frameworks */,
 				3FE7C416244CDDB40046F24D /* Resources */,
+				1FE70FD47FA57527D0B53662 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +305,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FE70FD47FA57527D0B53662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51890DBB125ACA771FE2F95D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeenaMathewFinalExam/Pods-TeenaMathewFinalExam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeenaMathewFinalExam/Pods-TeenaMathewFinalExam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeenaMathewFinalExam/Pods-TeenaMathewFinalExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E16ADD2DED82AAE2F0DFD39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeenaMathewFinalExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC66780E3983BB1955B9EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1A5E93271E1AC251B267EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeenaMathewFinalExamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FE7C3F3244CDDB30046F24D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3FE7C3FF244CDDB30046F24D /* ViewController.swift in Sources */,
+				3F8E33BE244E831000A79F30 /* GuidelinesViewController.swift in Sources */,
+				3F8E33C0244E90D100A79F30 /* AssesmentViewController.swift in Sources */,
 				3FE7C3FB244CDDB30046F24D /* AppDelegate.swift in Sources */,
 				3FE7C3FD244CDDB30046F24D /* SceneDelegate.swift in Sources */,
 			);
@@ -432,6 +588,7 @@
 		};
 		3FE7C422244CDDB50046F24D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6F7C4C6C6D9887D983962A /* Pods-TeenaMathewFinalExam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,12 +600,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mycompany.com.TeenaMathewFinalExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3FE7C423244CDDB50046F24D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F8CFFE3B28CC122848873C /* Pods-TeenaMathewFinalExam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +618,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mycompany.com.TeenaMathewFinalExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		3FE7C425244CDDB50046F24D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2662FB0613DEBE5BCD39CDD /* Pods-TeenaMathewFinalExamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +646,7 @@
 		};
 		3FE7C426244CDDB50046F24D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C86304C2F1AF800F7D45FDC /* Pods-TeenaMathewFinalExamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +668,7 @@
 		};
 		3FE7C428244CDDB50046F24D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF13E26378689CB9F3A0195 /* Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +688,7 @@
 		};
 		3FE7C429244CDDB50046F24D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9209F8DF12056B288724832E /* Pods-TeenaMathewFinalExam-TeenaMathewFinalExamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
